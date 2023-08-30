@@ -42,13 +42,12 @@ public class Puzzle2 {
                     puzzleGraph.addEdge(i, j, weight);
                     puzzleGraph.addEdge(j, i, weight);
                 }
-            }
-        }
-    }
+             }
+          }
+       }
 
       public void playLevel1() {
          Scanner scanner = new Scanner(System.in);
-        Random random = new Random();
         int round = 1;
         int tries = 10;
         int matchesNeeded = 1;
@@ -134,7 +133,6 @@ public class Puzzle2 {
     }
     public void playLevel2() {
       Scanner scanner = new Scanner(System.in);
-            Random random = new Random();
             int round = 1;
             int tries = 9;  
             int matchesNeeded = 1;
